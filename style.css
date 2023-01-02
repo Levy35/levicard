@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+}
+ body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("images/wall9.jpg");
+    background-size: cover;
+}
+.box{
+    width: 450px;/*400*//*450px*/
+    background: rgba(0, 0, 0, 0.4);
+    padding:/* 300px*/none; /*11*/ /*40px*/ /*150*/
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:rgb(255, 255, 255);
+    font-family: 'Century Gothic', sans-serif;
+   
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: monospace;
+}
+.box h5{
+    font-size:25px;/*20*/
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+   color:rgb(255, 255, 255);
+   text-decoration: none;
+   font-size: 60px;
+   transition: all ease-in-out 250ms;
+
+}
+box li a:hover{
+    color: #b9b9b9;
+}
+footer {
+  text-align: center;
+  font-family: monospace;
+  padding: 3px;
+  background-color: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("images/wall9.jpg");
+  color: white;
+  align-content: center;
+}
+.welcome-text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: b;
+    color: #fff;
+}
+.welcome-text a:hover{
+    background:#fff;
+    color: #333;
+    
+}
