@@ -4,18 +4,18 @@ html{
  body{
     margin:0;
     padding:0;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("images/wall9.jpg");
-    background-size: cover;
+   /* background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("images/space.jpg");
+    background-size: cover;*/
 }
 .box{
-    width: 450px;/*400*//*450px*/
+    width: 300px;/*400*//*450px*/
     background: rgba(0, 0, 0, 0.4);
     padding:/* 300px*/none; /*11*/ /*40px*/ /*150*/
     text-align: center;
     margin: auto;
     margin-top: 5%;
     color:rgb(255, 255, 255);
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
    
 }
 .box-img{
@@ -27,7 +27,7 @@ html{
     font-size: 20px;
     letter-spacing: 4px;
     font-weight: 100;
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 .box h5{
     font-size:25px;/*20*/
@@ -53,6 +53,22 @@ ul{
 box li a:hover{
     color: #b9b9b9;
 }
+#bg-video {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-image: url(images/coding.mp4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 footer {
   text-align: center;
   font-family: monospace;
